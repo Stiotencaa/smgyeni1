@@ -666,6 +666,49 @@ a:focus {
   }
 }
 
+/* Hero Area Responsive Styles */
+@media (max-width: 768px) {
+  .logo-container {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  .welcome-text {
+    font-size: 2.5rem;
+    margin: 15px 0;
+    word-wrap: break-word;
+  }
+
+  .logo-circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .main-logo {
+    max-width: 180px;
+  }
+
+  .discover-btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-text {
+    font-size: 2rem;
+  }
+  
+  .logo-circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .main-logo {
+    max-width: 130px;
+  }
+}
+
 .service_section {
   position: relative;
 }
